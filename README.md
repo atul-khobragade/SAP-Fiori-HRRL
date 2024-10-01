@@ -5,3 +5,5 @@ A basic SAP linkage webpage designed to provide a good interface and ease of acc
 - **User-Friendly Interface**: An easy-to-navigate layout for quick access to SAP resources.
 - **Responsive Design**: Adaptable layout for different screen sizes.
 - **Direct Access**: Quick links to the SAP website with organized logo and button alignment using CSS Flexbox.
+📸 Screenshot
+![HRRL SAP Webpage](hrrl sap screenshot.png)
