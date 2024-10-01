@@ -6,4 +6,6 @@ A basic SAP linkage webpage designed to provide a good interface and ease of acc
 - **Responsive Design**: Adaptable layout for different screen sizes.
 - **Direct Access**: Quick links to the SAP website with organized logo and button alignment using CSS Flexbox.
 📸 Screenshot
-![HRRL SAP Webpage](hrrl sap screenshot.png)
+
+
+![hrrl sap screenshot](https://github.com/user-attachments/assets/62a560c8-a042-46eb-90d3-8750561de4bd)
