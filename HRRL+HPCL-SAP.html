@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <!-- <link rel="manifest" href="manifest.json"> -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAP Fiori Application</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: #fff;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 60px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .button {
+            padding: 15px 30px;
+            font-size: 1rem;
+            color: #fff;
+            background: linear-gradient(90deg, #ff8a00, #e52e71);
+            border: none;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            box-shadow: 0px 4px 15px rgba(255, 138, 0, 0.3);
+        }
+        .button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0px 8px 20px rgba(255, 138, 0, 0.6);
+            background: linear-gradient(90deg, #e52e71, #ff8a00);
+        }
+        .logo {
+            margin: 20px 0;
+        }
+        .logo-button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px; /* Space between the logo and button */
+            margin-bottom: 20px; /* Space between sets */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SAP Fiori Application</h1>
+        
+        <!-- HRRL Logo and Button in One Line -->
+        <div class="logo-button-container">
+            <img src="https://cracku.in/latest-govt-jobs/wp-content/uploads/2020/05/HRRL-Logo-1.jpeg" style="height:100px;" alt="HRRL Logo" title="HRRL Logo">
+            <a href="https://prd.hrrl.in/sap/bc/ui2/flp" class="button">Click here for HRRL Fiori</a>
+        </div>
+        
+        <!-- HPCL Logo and Button in One Line -->
+        <div class="logo-button-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOrt7wJ1DW-CtHuPsSVCR8sfMVR8sbyUh0iw&s" style="height:100px;" alt="HPCL Logo" title="HPCL Logo">
+            <a href="https://aarohan.hpcl.in/sap/bc/ui2/flp" class="button">Click here for HPCL Fiori</a>
+        </div>
+    </div>
+    <script>
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/service-worker.js');
+        }
+      </script>
+      
+</body>
+
+</html>
